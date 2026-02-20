@@ -1,0 +1,451 @@
+🎯 Project Overview
+
+Create a luxury, premium, mobile-first business website for a brand named:
+
+🟡 Good & Pure
+“Golden Drops of Tradition”
+
+We sell Cold Pressed Sarso (Mustard) Oil made using traditional wooden press (Kachi Ghani method). The website must feel:
+
+Ultra Premium
+
+Emotionally rich
+
+Heart-touching
+
+Cinematic
+
+Smooth animated
+
+₹30,000,000+ brand level feel
+
+Modern luxury D2C product website
+
+Extremely responsive (mobile first)
+
+🎨 THEMES (User Toggle Switch Required)
+🌞 Theme 1 – Light Luxury
+
+Yellowish golden gradients
+
+Soft pink highlights
+
+Warm cream background
+
+Gold micro-accents
+
+Smooth glassmorphism
+
+Soft shadows
+
+Premium serif headings
+
+Mood: Organic, Warm, Pure, Emotional
+
+🌌 Theme 2 – Cyber Premium
+
+Deep black background
+
+Neon golden glow
+
+Pink cyber accents
+
+Glass cards with blur
+
+Soft glowing borders
+
+Particle background animation
+
+Mood: Futuristic Luxury Health Brand
+
+Add animated theme toggle switch in Navbar.
+
+📱 Design Rules
+
+Mobile First Layout
+
+3D subtle parallax
+
+Smooth scroll reveal
+
+Micro-interactions on hover
+
+Floating oil drop animations
+
+Grain texture overlay
+
+Use Framer Motion animations
+
+Section fade-in on scroll
+
+Button magnetic hover effect
+
+Smooth page transitions
+
+🔝 1️⃣ NAVBAR SECTION
+
+Sticky, glassmorphism navbar with blur background.
+
+Left:
+
+Logo:
+🟡 Golden oil drop icon + “Good & Pure”
+
+Center:
+
+Menu Items:
+
+Home
+
+Our Oil
+
+Benefits
+
+Process
+
+Testimonials
+
+Shop
+
+Contact
+
+Right:
+
+Theme Toggle
+
+Cart Icon (lucide-react: ShoppingCart)
+
+CTA Button: “Order Now”
+
+Animations:
+
+Navbar shrink on scroll
+
+Glow underline hover effect
+
+Mobile hamburger (lucide-react: Menu)
+
+🟡 2️⃣ HERO SECTION (Cinematic)
+
+Full screen hero.
+
+Background:
+
+Slow motion mustard fields
+
+Floating oil drop particles
+
+Soft golden glow lighting
+
+Headline:
+
+“Pure Gold For Your Family”
+
+Subheading:
+Traditionally extracted. Nutrient rich. Chemical free.
+
+CTA Buttons:
+
+🛒 Buy Now
+
+▶ Watch Process
+
+Icons:
+
+Droplet
+
+Leaf
+
+ShieldCheck
+
+Add:
+
+Oil bottle 3D mockup floating
+
+Subtle rotation animation
+
+Soft spotlight effect
+
+🌿 3️⃣ ABOUT OUR OIL
+
+Split layout (image + content)
+
+Left:
+High quality wooden ghani machine image
+
+Right Content:
+
+“What Makes Good & Pure Different?”
+
+100% Cold Pressed
+
+Wooden Kachi Ghani Extraction
+
+No Heat Process
+
+No Chemicals
+
+Farm Direct Mustard Seeds
+
+Use lucide icons:
+
+CheckCircle
+
+Leaf
+
+Sun
+
+HeartPulse
+
+Shield
+
+Animation:
+Cards slide in one by one.
+
+💛 4️⃣ HEALTH BENEFITS SECTION
+
+Grid Cards with hover elevation.
+
+Title:
+
+“Why Your Kitchen Needs This”
+
+Each Card:
+
+❤️ Heart Friendly
+
+Rich in Omega-3 fatty acids
+
+🛡 Immunity Booster
+
+Natural antibacterial properties
+
+🌿 Improves Digestion
+
+Stimulates digestive enzymes
+
+🧠 Brain Support
+
+Supports cognitive health
+
+🔥 Natural Body Warmth
+
+Ideal for winters
+
+Icons:
+Heart
+Shield
+Brain
+Flame
+Apple
+
+Add subtle glowing border animation.
+
+🏺 5️⃣ TRADITIONAL PROCESS SECTION
+
+Timeline Section (Vertical Scroll)
+
+Step 1:
+🌾 Seed Selection
+
+Step 2:
+🌞 Sun Drying
+
+Step 3:
+🪵 Wooden Ghani Extraction
+
+Step 4:
+🧴 Natural Filtration
+
+Step 5:
+🚚 Fresh Packaging
+
+Add scroll-based animated progress line.
+
+🛒 6️⃣ PRODUCT SHOWCASE
+
+Premium product cards:
+
+Product:
+1L Bottle
+5L Can
+
+Each card includes:
+
+Product Image
+
+Price
+
+Add to Cart Button
+
+Rating (Star icon)
+
+Badge: “Cold Pressed”
+
+Hover:
+
+3D tilt effect
+
+Soft glow border
+
+⭐ 7️⃣ TESTIMONIAL SECTION
+
+Carousel style.
+
+Include:
+
+🗣 “The aroma reminds me of my grandmother’s kitchen.”
+🗣 “Feels lighter and more authentic.”
+🗣 “We switched completely to Good & Pure.”
+
+Add:
+
+Profile images
+
+Star ratings
+
+Soft fade animation
+
+📦 8️⃣ WHY TRUST US
+
+Grid with icons:
+
+🚚 Fast Delivery
+
+🔒 Secure Payment
+
+🧪 Lab Tested
+
+🌾 Farm Sourced
+
+♻ Eco Friendly Packaging
+
+Icons:
+Truck
+Lock
+FlaskConical
+Sprout
+Recycle
+
+Add subtle hover scale animation.
+
+📊 9️⃣ NUTRITION FACT SECTION
+
+Modern infographic style.
+
+Show:
+
+Omega 3
+
+Vitamin E
+
+Healthy Fats
+
+Zero Cholesterol
+
+Use animated counters.
+
+🎥 1️⃣0️⃣ VIDEO SECTION
+
+Embedded process video.
+
+Overlay play button with glowing animation.
+
+📞 1️⃣1️⃣ CONTACT SECTION
+
+Minimal premium layout.
+
+Fields:
+
+Name
+
+Phone
+
+Message
+
+Icons:
+User
+Phone
+Mail
+MessageCircle
+
+Add floating label animation.
+
+🟡 1️⃣2️⃣ FINAL CTA SECTION
+
+Large centered text:
+
+“Switch to Purity Today”
+
+Button:
+Order Now
+
+Background:
+Golden gradient animated waves.
+
+🔻 1️⃣3️⃣ FOOTER
+
+Dark luxury footer.
+
+Columns:
+
+Brand:
+Good & Pure
+Golden Drops of Tradition
+
+Quick Links
+
+Contact Info
+
+Social Icons:
+Instagram
+Facebook
+YouTube
+
+Add subtle glow on hover.
+
+✨ PREMIUM EFFECTS REQUIRED
+
+Page loading animation (golden oil filling effect)
+
+Cursor glow effect
+
+Smooth theme transition animation
+
+Animated section dividers
+
+Soft ambient sound toggle option
+
+SEO optimized
+
+Fast performance
+
+Lighthouse score 95+
+
+🧠 BRAND STORY CONTENT (Use This Text)
+
+Good & Pure was born from the belief that purity is not a luxury — it is a right.
+
+Our mustard seeds are sourced directly from trusted farmers.
+Extracted using traditional wooden ghani without heat.
+Preserving nutrients. Preserving aroma. Preserving tradition.
+
+Every drop carries heritage.
+
+🎯 Goal
+
+Website should feel like:
+
+Apple-level polish
+
+Tesla-level smoothness
+
+Luxury Ayurveda brand
+
+Premium D2C product
+
+Emotionally powerful
+
+Trust building
+
+Conversion optimized
