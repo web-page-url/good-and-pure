@@ -4,23 +4,27 @@ import React, { useState } from "react";
 import { Section } from "./Section";
 import { motion, AnimatePresence } from "framer-motion";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
+import Image from "next/image";
 
 const testimonials = [
     {
         name: "Sunita Verma",
         role: "Home Chef",
+        image: "/img/user-sunita.png",
         content: "The aroma reminds me of my grandmother's kitchen. It's rare to find such authentic wooden-pressed oil these days. Completely changed the taste of my curries.",
         rating: 5,
     },
     {
         name: "Dr. Rajesh Khanna",
         role: "Nutritionist",
+        image: "/img/user-rajesh.png",
         content: "Feels lighter and more authentic. I recommend Good & Pure to all my clients who are looking for chemical-free, nutrient-dense cooking options.",
         rating: 5,
     },
     {
         name: "Priya Sharma",
         role: "Fitness Enthusiast",
+        image: "/img/user-priya.png",
         content: "We switched completely to Good & Pure. The clarity and purity are visible from the first drop. Plus, the glass packaging is a great touch for the environment.",
         rating: 5,
     },
@@ -54,6 +58,18 @@ export function TestimonialSection() {
                             transition={{ duration: 0.5 }}
                             className="space-y-8"
                         >
+                            <div className="relative w-32 h-32 mx-auto mb-6">
+                                <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full animate-pulse" />
+                                <div className="relative w-full h-full rounded-full overflow-hidden border-2 border-primary/30">
+                                    <Image
+                                        src={testimonials[current].image}
+                                        alt={testimonials[current].name}
+                                        fill
+                                        className="object-cover object-top"
+                                    />
+                                </div>
+                            </div>
+
                             <div className="flex justify-center text-primary mb-6">
                                 {[...Array(testimonials[current].rating)].map((_, i) => (
                                     <Star key={i} className="w-6 h-6 fill-primary" />

@@ -51,7 +51,7 @@ export function Navbar() {
                         <Droplet className="w-8 h-8 text-primary fill-primary animate-float" />
                         <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full group-hover:bg-primary/40 transition-colors" />
                     </div>
-                    <span className="text-xl font-semibold tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70 dark:from-white dark:to-white/60">
+                    <span className="text-xl font-semibold tracking-tighter text-foreground dark:text-white">
                         Good & Pure
                     </span>
                 </motion.div>
@@ -65,7 +65,7 @@ export function Navbar() {
                             initial={{ opacity: 0, y: -10 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: i * 0.1 }}
-                            className="text-sm font-medium text-foreground/70 hover:text-primary transition-colors relative group"
+                            className="text-sm font-medium text-foreground hover:text-primary transition-colors relative group"
                         >
                             {item.name}
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />

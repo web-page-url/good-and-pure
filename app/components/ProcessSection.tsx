@@ -3,31 +3,37 @@
 import React, { useRef } from "react";
 import { Section } from "./Section";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
+import { Sprout, Sun, Wind, Filter, Package } from "lucide-react";
 
 const steps = [
     {
         step: "01",
         title: "Seed Selection",
+        icon: Sprout,
         description: "Only the finest, high-grade mustard seeds are chosen, sourced directly from local farmers in Rajasthan.",
     },
     {
         step: "02",
         title: "Sun Drying",
+        icon: Sun,
         description: "Seeds are naturally sun-dried to optimal moisture levels to ensure the best aroma and nutrient retention.",
     },
     {
         step: "03",
         title: "Wooden Ghani Extraction",
+        icon: Wind,
         description: "The core of our process. Seeds are crushed slowly in a traditional wooden press without generating heat.",
     },
     {
         step: "04",
         title: "Natural Filtration",
+        icon: Filter,
         description: "Our oil is left to settle naturally for 48 hours. No chemical filters are ever used.",
     },
     {
         step: "05",
         title: "Fresh Packaging",
+        icon: Package,
         description: "Pure oil is bottled in premium glass or high-quality containers to preserve its natural goodness.",
     },
 ];
@@ -73,16 +79,24 @@ export function ProcessSection() {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, margin: "-100px" }}
                             transition={{ duration: 0.8, delay: 0.1 }}
-                            className={`relative flex flex-col ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} items-center gap-8 md:gap-20`}
+                            className={`relative flex flex-col ${i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} items-center gap-8 md:gap-20 group`}
                         >
-                            {/* Dot mapping */}
-                            <div className="absolute left-[20px] md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-background border-4 border-primary z-20" />
+                            {/* Icon & Dot mapping */}
+                            <div className="absolute left-[20px] md:left-1/2 -translate-x-1/2 z-20 flex flex-col items-center">
+                                <motion.div
+                                    whileHover={{ scale: 1.2, rotate: 360 }}
+                                    className="w-12 h-12 rounded-2xl bg-background border-2 border-primary/20 flex items-center justify-center mb-4 group-hover:border-primary group-hover:bg-primary/10 transition-colors shadow-xl"
+                                >
+                                    <step.icon className="w-6 h-6 text-primary" />
+                                </motion.div>
+                                <div className="w-4 h-4 rounded-full bg-background border-4 border-primary" />
+                            </div>
 
                             {/* Content */}
-                            <div className={`w-full md:w-1/2 pl-12 md:pl-0 ${i % 2 === 0 ? "md:text-right" : "md:text-left"}`}>
+                            <div className={`w-full md:w-1/2 pl-16 md:pl-0 ${i % 2 === 0 ? "md:text-right" : "md:text-left"}`}>
                                 <div className="mb-4">
                                     <span className="text-6xl font-black text-foreground/5 select-none">{step.step}</span>
-                                    <h3 className="text-2xl font-bold -mt-8">{step.title}</h3>
+                                    <h3 className="text-2xl font-bold -mt-8 group-hover:text-primary transition-colors">{step.title}</h3>
                                 </div>
                                 <p className="text-foreground/60 leading-relaxed font-light max-w-sm mx-auto md:mx-0">
                                     {step.description}
