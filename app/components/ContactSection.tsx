@@ -52,7 +52,7 @@ export function ContactSection() {
                             </div>
                             <div>
                                 <p className="text-xs font-bold opacity-30 uppercase tracking-widest">Call Us</p>
-                                <p className="text-lg font-bold">+91 98765 43210</p>
+                                <p className="text-lg font-bold">+91 9736211316</p>
                             </div>
                         </div>
                         <div className="flex items-center gap-6 p-6 glass-card group">
@@ -61,7 +61,7 @@ export function ContactSection() {
                             </div>
                             <div>
                                 <p className="text-xs font-bold opacity-30 uppercase tracking-widest">Email Us</p>
-                                <p className="text-lg font-bold">hello@goodandpure.com</p>
+                                <p className="text-lg font-bold">anubhavchaudhary458@gmail.com</p>
                             </div>
                         </div>
                     </div>
