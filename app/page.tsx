@@ -4,6 +4,7 @@ import { AboutSection } from "./components/AboutSection";
 import { BenefitsSection } from "./components/BenefitsSection";
 import { ProcessSection } from "./components/ProcessSection";
 import { ProductSection } from "./components/ProductSection";
+import { GallerySection } from "./components/GallerySection";
 import { TestimonialSection } from "./components/TestimonialSection";
 import { NutritionSection } from "./components/NutritionSection";
 import { ContactSection } from "./components/ContactSection";
@@ -24,6 +25,7 @@ export default function Home() {
         <BenefitsSection />
         <ProcessSection />
         <ProductSection />
+        <GallerySection />
         <TestimonialSection />
         <NutritionSection />
         <ContactSection />
