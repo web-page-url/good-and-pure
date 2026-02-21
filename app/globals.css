@@ -14,8 +14,8 @@
     --popover: 35 100% 97%;
     --popover-foreground: 15 70% 12%;
 
-    --primary: 32 100% 45%;
-    /* Deep Vibrant Golden Drop */
+    --primary: 25 94% 49%;
+    /* Requested #f26907 Orange */
     --primary-foreground: 15 70% 10%;
 
     --secondary: 15 100% 92%;
@@ -33,7 +33,7 @@
 
     --border: 35 60% 85%;
     --input: 35 60% 85%;
-    --ring: 32 100% 45%;
+    --ring: 25 94% 49%;
 
     --radius: 1rem;
   }
